@@ -1,6 +1,4 @@
-const express = require("express");
 const router = express.Router();
-const dealMiddleware = require("../Middleware/dealMiddleware")
 const {createDeal, updateDeal} = require("../Controller/createDealController")
 const {claimDeal} = require("../Controller/claimDealController")
 const {getDeal, getDealWithId } = require("../Controller/getDealController")

@@ -17,4 +17,4 @@ exports.getDealWithId = async(req,res,next) => {
     }catch(error){
         next(error);
     }
-}
+} 
